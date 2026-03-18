@@ -22,6 +22,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['v86'],
   },
+  plugins: [],
 });
 
 
