@@ -1,5 +1,7 @@
 import { defineConfig } from 'vite';
 
+import { cloudflare } from "@cloudflare/vite-plugin";
+
 export default defineConfig({
   root: '.',
   publicDir: 'public',
@@ -22,7 +24,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['v86'],
   },
-  plugins: [],
+  plugins: [cloudflare()],
 });
-
-
