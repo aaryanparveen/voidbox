@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.vite/
+*.log
+npm-debug.log*
+.env
+.vscode/*
+!.vscode/extensions.json
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+public/v86/
